@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>tn.esprit</groupId>
-    <artifactId>devops-project</artifactId>
+    <artifactId>devopsamine</artifactId>
     <version>1.0</version>
-    <name>DevOps_Project</name>
-    <description>DevOps_Project</description>
+    <name>devopsamine</name>
+    <description>devopsamine</description>
     <properties>
         <java.version>11</java.version>
     </properties>

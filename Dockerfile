@@ -1,4 +1,4 @@
 FROM openjdk:11-jre-slim
-COPY target/devops-project-1.0.jar app.jar
-EXPOSE 8082
+COPY target/devopsamine-1.0.jar app.jar
+EXPOSE 8085
 CMD ["java", "-jar", "app.jar"]

@@ -14,13 +14,13 @@ services:
     networks:
       - mynetwork
   backend:
-    image: medamineayadi99/devops-project:1.0
+    image: medamineayadi99/devopsamine:1.0
     depends_on:
       - mysqldb
     build: ./
     restart: on-failure
     ports:
-      - 8082:8082
+      - 8085:8085
     environment:
       SPRING_APPLICATION_JSON: '{
         "spring.datasource.url"  : "jdbc:mysql://mysqldb:3306/devops?useSSL=false",
