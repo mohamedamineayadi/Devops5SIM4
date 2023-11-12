@@ -1,4 +1,6 @@
 package tn.esprit.devops_project.entities;
+
+import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.Mockito.*;
 import org.junit.jupiter.api.BeforeEach;
